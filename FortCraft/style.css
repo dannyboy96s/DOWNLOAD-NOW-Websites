@@ -1,0 +1,82 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrap{
+    width: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+}
+.wrap .main{
+    position: relative;
+    height: 947px;
+    width: 100%;
+    background: url(https://www.fortcraft.com/pc/gw/20180315145201/img/kv_3e4da86.jpg) top center no-repeat;
+}
+.wrap .main .logo{
+    position: absolute;
+    height: 111px;
+    width: 247px;
+    background:  url(https://www.fortcraft.com/pc/gw/20180315145201/img/logo_b6324ed.png);
+    left: 50%;
+    margin-left: -123.5px;
+    top: 70px;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+a, button{
+    cursor: pointer;
+}
+.wrap .main .dl{
+    position: absolute;
+    width: 410px;
+    height: 188px;
+    left: 50%;
+    margin-left: -205px;
+    top: 584px;
+}
+.wrap .main .dl .download{
+    display: block;
+    width: 227px;
+    height: 64px;
+    margin: 0 auto;
+    background: url(https://www.fortcraft.com/pc/gw/20180315145201/img/ggdl_df6dcab.png) no-repeat;
+}
+.wrap .main .dl p{
+    color: #ffffff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    margin: 8px auto 17px;
+} 
+.wrap .main .dl .social{
+    width: 184px;
+    height: 51px;
+    margin: 0 auto;
+}
+.wrap .main .dl .social a.twitter{
+    width: 50px;
+    height: 50px;
+    background: url(https://www.fortcraft.com/pc/gw/20180315145201/img/tw_2be430e.png) no-repeat;
+}
+.wrap .main .dl .social a.youtube{
+    width: 51px;
+    height: 51px;
+    background: url(https://www.fortcraft.com/pc/gw/20180315145201/img/yt_9ee0ed6.png) no-repeat;
+}
+.wrap .main .dl .social a.facebook{
+    width: 48px;
+    height: 48px;
+    background: url(https://www.fortcraft.com/pc/gw/20180315145201/img/fb_cfcb959.png) no-repeat;
+}
+.wrap .main .dl .social a{
+    float: left;
+    margin: 0 5px;
+}
+#download:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
